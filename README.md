@@ -1,7 +1,7 @@
 # test_influxdb
 a simple tutorial to test influxdb
 
-'''
+```
 1. install
 Ubuntu & Debian (64-bit)
 
@@ -57,4 +57,4 @@ Date: Sun, 12 Jan 2020 13:09:23 GMT
 
 wget http://192.168.2.110:8086/query?q=SELECT+host%2C+T1%2C+T2%2C+T3+FROM+TEST&db=db1
 
-'''
+```
