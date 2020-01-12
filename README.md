@@ -48,6 +48,10 @@ please input command from console:
 
 curl -i -XPOST "http://192.168.2.110:8086/write?db=_internal" --data-binary 'TEST,host=shanghai T1=1,T2=2,T3=3'
 
+aliyun TSDB for influxdb test example:
+curl -i -XPOST "https://<网络地址>:3242/write?db=science_is_cool&u=<账号名称>&p=<密码>" --data-binary 'weather,location=us-midwest temperature=82 1465839830100400200'
+
+
 you will received:
 HTTP/1.1 204 No Content
 Request-Id: c0b45155-353c-11ea-8010-000000000000
